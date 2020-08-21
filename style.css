@@ -1,0 +1,147 @@
+/*struktur dasar*/
+selektor{
+	property:nilai;
+}
+
+/*background gambar */
+
+body{
+	background:url("../Gambar/Miku.png") center no-repeat fixed;
+}
+
+/* Background Color */
+
+#Pipitpuputspam{
+	background-color: white;
+}
+/* teks pada css */
+#h1{
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	display: block;
+}
+
+#wrap{
+	/*margin:top right bottom left;*/
+	margin: 10px 50px 10px 50px;
+}
+
+/* display( inline,block, dan inline-block ) */
+
+.menu{
+	display: inline-block;
+	/*width: 100px;
+	height: 50px;*/
+	text-decoration: none;
+
+	/* Border & Padding */
+
+	border: 2px solid black;
+	padding: 10px 5px;
+}
+
+
+#Pipitpuputspam{
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 10px;
+	word-spacing: 5px;
+
+	/* menghilangkan elemen dengan css */
+
+	/*visibility: hidden;*/
+}
+
+/* penghiasan teks, dan mengatur dimensi( width & height) */
+
+#Teks{
+	font-size: 30px;
+	font-family: courier new;
+	font-weight: bold;
+	background:yellow;
+	width: 100px;
+	height: 200px;
+	max-width: 50px;
+	max-height: 100px;
+}
+
+/* Penghiasan Link */
+
+/* kondisi biasa */
+.menu:link{
+	background:green;
+	color: white;
+}
+/* kondisi setelah di kunjungi */
+.menu:visited{
+	background: white;
+	color: red;
+}
+
+/* Kondisi hover- mouse berada diatasnya */
+
+.menu:hover{
+	background:grey;
+	color: orange;
+}
+
+.menu:active{
+	background:purple;
+	color: white;
+}
+
+#lk2{
+	background-color: white;
+	display: inline-block;
+	margin: 10px 20px;
+	padding: 10px 20px;
+	border: 3px solid black;
+
+}
+
+/* mengatur posisi di css*/
+/* 1. static, 2. relative, 3. absolute, 4. fixed */
+/* parent elemen */
+
+#menu_posisi{
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+#H22{
+	background:yellow;
+	position: fixed;
+	top: 75px;
+	right: 200px;
+
+}
+/* posisi absolute tergantung parent elemen */
+#parent_h1{
+	position: relative;
+	top: 100px;
+}
+/* posisi fixed tergantung browser */
+
+#parent_h2{
+	position: relative;
+	top: 100px;
+
+
+#h1_member{
+	background:green;
+	position: absolute;
+	top: 75px;
+	left: 50px;
+}
+
+#h2_member{
+	background:yellow;
+	position: fixed;
+	top: 75px;
+	left: 150px;
+}
+
